@@ -1,5 +1,6 @@
 @use 'hero';
 @use 'event';
+@use 'variables';
 @use 'components/buttons';
 @use 'components/infos_bar';
 
@@ -9,7 +10,7 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     list-style: none;
-    color: #fff;
+    color: variables.$primaryTextColor;
 }
 
 .container {

@@ -1,1 +1,1 @@
-console.log("olá, novo projeto")
+AOS.init();
